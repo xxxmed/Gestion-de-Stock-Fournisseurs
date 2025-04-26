@@ -43,8 +43,8 @@ include "conexion.php";
             <select id="if" class="rt" required name="id_fournisseur">
             <option value="" disabled selected hidden>Select ID fournisseur</option>
             <?php foreach ($feedback as $item):?>
-                <option value="<?php echo $item["id_fournisseur"]?>">
-                  <?php echo $item["id_fournisseur"]." ".$item["responsable"] ?>
+                <option value="<?php echo htmlspecialchars($item["id_fournisseur"]) ?>">
+                  <?php echo htmlspecialchars($item["id_fournisseur"])." ".$item["responsable"] ?>
                 </option>
             <?php endforeach; ?>
             </select><br><br>
