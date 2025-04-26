@@ -32,7 +32,7 @@ Gérez facilement vos produits, fournisseurs, seuils et quantités via une inter
 ├── help.jpg # Favicon
 ├── README.md # Ce fichier
 └── .gitignore # Fichiers/dossiers ignorés par git
-"""
+
 ```
 
 ## 🚀 Installation rapide
