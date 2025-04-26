@@ -18,7 +18,7 @@ Gérez facilement vos produits, fournisseurs, seuils et quantités via une inter
 ---
 
 ## 🗂️ Structure du projet
-"""
+```
 / (racine)
 │
 ├── conexion.php # Connexion à la base de données
@@ -33,7 +33,7 @@ Gérez facilement vos produits, fournisseurs, seuils et quantités via une inter
 ├── README.md # Ce fichier
 └── .gitignore # Fichiers/dossiers ignorés par git
 """
-
+```
 
 ## 🚀 Installation rapide
 
